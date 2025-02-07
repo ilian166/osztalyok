@@ -32,7 +32,26 @@
             Console.WriteLine(f2.TypeChange("asdf"));
 
             Console.WriteLine(f3.LengthInc(24));
+
+            Game g1 = new Game("asd", 4, 180, 8);
+            Game g2 = new Game("asd2", 7, 220, 15);
+            Game g3 = new Game("asd3", 6);
+
+            Console.WriteLine(g1);
+            Console.WriteLine(g2);
+            Console.WriteLine(g3);
+
+            Console.WriteLine(g1.attack());
+            Console.WriteLine(g2.heal(17));
+            Console.WriteLine(g3.levelup());
+
+
+
+
+
         }
+
+        
 
 
     }
