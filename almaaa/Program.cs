@@ -54,9 +54,11 @@
             Console.WriteLine(s2);
             Console.WriteLine(s3);
 
-            Console.WriteLine(s1.start();
-            Console.WriteLine(s3.fueling(150);
-            Console.WriteLine(s2.land();
+            Console.WriteLine(s1.start());
+            Console.WriteLine(s3.fueling(150));
+            Console.WriteLine(s2.land());
+
+
 
 
 
