@@ -46,6 +46,19 @@
             Console.WriteLine(g3.levelup());
 
 
+            SpaceShip s1 = new SpaceShip("asd", 15, 6, 100);
+            SpaceShip s2 = new SpaceShip("asd2", 18, 2, 79);
+            SpaceShip s3 = new SpaceShip("asd3", 4);
+
+            Console.WriteLine(s1);
+            Console.WriteLine(s2);
+            Console.WriteLine(s3);
+
+            Console.WriteLine(s1.start();
+            Console.WriteLine(s3.fueling(150);
+            Console.WriteLine(s2.land();
+
+
 
 
 
