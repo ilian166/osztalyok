@@ -58,7 +58,17 @@
             Console.WriteLine(s3.fueling(150));
             Console.WriteLine(s2.land());
 
+            Agent a1 = new Agent("asd", "asdasd", 2, 67);
+            Agent a2 = new Agent("asd2", "asdasd2", 3, 89);
+            Agent a3 = new Agent("asd3", "asdasd3");
 
+            Console.WriteLine(a1);
+            Console.WriteLine(a2);
+            Console.WriteLine(a3);
+
+            Console.WriteLine(a1.start());
+            Console.WriteLine(a2.dangerinc(2));
+            Console.WriteLine(a3.winninginc(12));
 
 
 
